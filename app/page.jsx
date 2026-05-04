@@ -95,7 +95,6 @@ export default function Page() {
           {/* Centered Logo */}
           <div className="nav-logo">
             <span style={{ color: 'white', fontSize: '22px', fontWeight: '900', letterSpacing: '0.06em', textTransform: 'uppercase' }}>
-              SVX<span style={{ color: '#3e3e3e' }}>MGMT</span>
             </span>
           </div>
 
