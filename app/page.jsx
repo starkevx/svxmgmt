@@ -104,7 +104,6 @@ export default function Page() {
         }
 
         @media (max-width: 600px) {
-          .nav-logo { position: static !important; transform: none !important; }
           .contact-btn { display: none !important; }
           .hero-padding { padding: 8px 16px 0 !important; }
           .footer-padding { padding: 24px 16px !important; }
@@ -126,7 +125,7 @@ export default function Page() {
         {/* Drawer header */}
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
           <img
-            src="/SVX_v3_logo-125px.png"
+            src="/SVX_v3_logo-outline-75px.png"
             height="44"
             alt="SVX Management"
             style={{ display: 'block', objectFit: 'contain' }}
@@ -170,10 +169,10 @@ export default function Page() {
                </div>
           ──────────────────────────────────────────────────────────────────── */}
           <a
-            href="mailto:hello@svxmgmt.com"
+            href="hello@svxmgmt.com"
             style={{ color: 'rgba(255,255,255,0.4)', fontSize: '12px', letterSpacing: '0.08em', textDecoration: 'none' }}
           >
-            hello@svxmgmt.com
+            Athletes/Parents (MOI)
           </a>
         </div>
       </div>
@@ -205,8 +204,8 @@ export default function Page() {
           {/* Centered logo */}
           <div className="nav-logo">
             <img
-              src="/SVX_v3_logo-125px.png"
-              height="36"
+              src="/SVX_v3_logo-outline-75px.png"
+              height="20"
               alt="SVX Management"
               style={{ display: 'block', objectFit: 'contain' }}
             />
@@ -256,21 +255,23 @@ export default function Page() {
         <h2 style={{
           color: 'white',
           fontSize: 'clamp(52px, 9vw, 110px)',
-          fontWeight: '900',
+          fontWeight: '700',
           letterSpacing: '-0.02em',
           lineHeight: 1,
           margin: '0 0 10px',
         }}>
-          About Us
+          Who We Serve
         </h2>
         <p className="about-body">
           SVX Management is a private full-service sports marketing, talent 
           representation and brand management agency with our headquarters 
-          located in San Diego, California. We provide brand developement,
-          while providing elite career management and financial services for 
-          collegiate athletes in football, baseball, esports and basketball 
-          verticals.SVXMGMT creates innovative marketing solutions and our 
-          mission is to protect, grow, and elevate every invited client we 
+          located in San Diego, California. We provide operations managment
+          for our partners brands and startup brand developement, while
+          providing elite business, career and financial management and
+          services for high school and collegiate athletes in football,
+          esports, basketball, baseball, soccer, volleyball and olympic sports
+          verticals. SVXMGMT creates innovative marketing solutions and our 
+          mission is to protect, grow, and elevate every client we 
           represent on and off the field.
         </p>
       </section>
@@ -283,12 +284,12 @@ export default function Page() {
       }}>
         <p style={{
           color: 'rgba(255,255,255,0.4)',
-          fontSize: '10px',
+          fontSize: '9px',
           letterSpacing: '0.1em',
           textTransform: 'uppercase',
           margin: 0,
         }}>
-          &copy; {new Date().getFullYear()} SVX Management LLC. All rights reserved.
+          &copy; {new Date().getFullYear()} SVXMGMTLLC. All rights reserved.
         </p>
       </footer>
 
