@@ -251,7 +251,6 @@ export default function Page() {
           <a href="#about" onClick={close}>About</a>
           <a href="#services" onClick={close}>Services</a>
           <a href="#work" onClick={close}>Our Work</a>
-          <a href="#team" onClick={close}>Team</a>
           <a href="mailto:hello@svxmgmt.com" onClick={close}>Contact</a>
         </nav>
         <div style={{ marginTop: 'auto', paddingTop: '40px', borderTop: '1px solid rgba(255,255,255,0.08)' }}>
@@ -265,7 +264,7 @@ export default function Page() {
                </div>
           ──────────────────────────────────────────────────────────────────── */}
           <a href="mailto:hello@svxmgmt.com" style={{ color: 'rgba(255,255,255,0.4)', fontSize: '12px', letterSpacing: '0.08em', textDecoration: 'none' }}>
-            hello@svxmgmt.com
+            Athlete/Parents MOI
           </a>
         </div>
       </div>
