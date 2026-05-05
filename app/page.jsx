@@ -259,7 +259,7 @@ export default function Page() {
           fontWeight: '900',
           letterSpacing: '-0.02em',
           lineHeight: 1,
-          margin: '0 0 48px',
+          margin: '0 0 10px',
         }}>
           About Us
         </h2>
